@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GAmersDen-Booking-Application/static/css/main.9562c146.css",
+    "main.js": "/GAmersDen-Booking-Application/static/js/main.fac2b670.js",
+    "index.html": "/GAmersDen-Booking-Application/index.html",
+    "main.9562c146.css.map": "/GAmersDen-Booking-Application/static/css/main.9562c146.css.map",
+    "main.fac2b670.js.map": "/GAmersDen-Booking-Application/static/js/main.fac2b670.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9562c146.css",
+    "static/js/main.fac2b670.js"
+  ]
+}
