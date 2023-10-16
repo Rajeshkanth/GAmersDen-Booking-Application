@@ -11,3 +11,173 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  font-size: 85.7%;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.header span {
+  color: #e55604
+}
+
+.header h2 {
+  transition: .5s linear;
+}
+
+.header h2:hover {
+  color: #e55604;
+}
+
+.user-page {
+  background-color: #26577c;
+  padding: 5rem;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.playerRegister {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 30%;
+  padding: 3rem 2%;
+  box-sizing: border-box;
+  background-color: #054765;
+  box-shadow: inset 0 0 15px #9fb7c3;
+}
+
+.user-page h1 {
+  margin: 0 auto;
+  color: #26577c;
+  border: 2px solid #054765;
+  border-radius: 5px;
+  padding: 0 1rem;
+  background-color: #ffffff;
+  cursor: default;
+}
+
+.user-page span {
+  color: #e55604;
+}
+
+.user-page label {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-weight: 700;
+  margin: .6rem 0;
+  width: 90%;
+}
+
+.user-page input {
+  width: 95%;
+  padding: .5rem .8rem;
+  border-radius: 5px;
+  outline: 0;
+  margin: 0;
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 500;
+  color: #054765;
+  box-sizing: border-box;
+}
+
+
+
+.timeslot {
+  width: 95%;
+  font-weight: 500;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.book-slot {
+  width: 50%;
+  padding: .5rem .8rem;
+  border: 2px solid #e55604;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: #26577c;
+  font-size: large;
+  font-weight: 800;
+  transition: .3s ease;
+  box-sizing: border-box;
+}
+
+.book-slot span {
+  color: inherit;
+}
+
+.book-slot:hover {
+  background-color: #e55604;
+  cursor: pointer;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+
+
+
+.confirmBox {
+  margin: 0 2rem;
+  padding: 3rem 3rem;
+  background-color: #054765;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid rgb(120, 217, 204);
+  box-shadow: inset 0 0 15px rgb(120, 217, 204);
+  flex-wrap: wrap;
+  display: grid;
+}
+
+.confirmBox h1 {
+  background-color: #e55604;
+  color: white;
+  margin: 0 auto 1rem auto;
+}
+
+.confirmBox h2 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: .2rem 1rem;
+  box-sizing: border-box;
+  color: #054765;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.confirmBox button {
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 2px solid #e55604;
+}
+
+.confirmBox button:hover {
+  cursor: pointer;
+  color: #054765;
+  border: 2px solid #ffffff;
+  background-color: #e55604;
+}
+
+.caution {
+  color: yellow !important;
+  font-size: 1.5rem;
+}
+
+.footer {
+  height: 3rem;
+  background-color: #054765;
+}
