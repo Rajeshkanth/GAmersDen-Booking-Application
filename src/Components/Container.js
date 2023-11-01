@@ -11,7 +11,6 @@ function Container() {
   const [bookedList, setBookedList] = useState([]);
   const [alertList, setAlertList] = useState([]);
 
-  console.log(bookedList);
   const optionsList = [
     { value: "09:00 AM-09:30 AM", label: "09:00 AM-09:30 AM" },
     { value: "09:30 AM-10:00 AM", label: "09:30 AM-10:00 AM" },
@@ -49,7 +48,6 @@ function Container() {
   const filteredOptionLists = optionsList.filter(
     (item) => !bookedTimes.includes(item.value)
   );
-  console.log(bookedList);
 
   const playerCount = [
     { value: 1, label: 1 },
@@ -120,10 +118,12 @@ function Container() {
     setName(e.target.value);
   };
 
-  console.log(alertList);
-  console.log("Booked List ", bookedList);
-
-  useEffect(() => {}, [bookedList]);
+  useEffect(() => console.log(bookedList), []);
+  useEffect(() => {
+    console.log(alertList);
+    console.log("Booked List ", bookedList);
+    console.log(bookedList);
+  }, [bookedList]);
   return (
     <>
       <section className="user-page">
@@ -155,7 +155,7 @@ function Container() {
             value={selectedPlayer}
             options={playerCount}
             onChange={handleSelectPlayer}
-            placeholder={selectedPlayer}
+            placeholder="Select Number of Players"
           />
           <label htmlFor="">Enter Your Name :</label>
           <input
@@ -172,7 +172,7 @@ function Container() {
           <span className="playerListAlert">
             {alertList.map((a) => (
               <div className="confirmBox">
-                <h1>Confirmation</h1>
+                <h1>Booking Details</h1>
                 <h2>Name : {a.Name}</h2>
                 <h2>Date : {a.date}</h2>
                 <h2>Time : {a.time}</h2>
