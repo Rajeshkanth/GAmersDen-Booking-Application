@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/GAmersDen-Booking-Application/static/css/main.9562c146.css",
-    "main.js": "/GAmersDen-Booking-Application/static/js/main.fac2b670.js",
+    "main.css": "/GAmersDen-Booking-Application/static/css/main.e09ad2d1.css",
+    "main.js": "/GAmersDen-Booking-Application/static/js/main.f99edabe.js",
+    "static/media/futuristic-video-game-equipment-illuminated-nightclub-generative-ai.jpg": "/GAmersDen-Booking-Application/static/media/futuristic-video-game-equipment-illuminated-nightclub-generative-ai.0bd04e52277dbc83a1e3.jpg",
     "index.html": "/GAmersDen-Booking-Application/index.html",
-    "main.9562c146.css.map": "/GAmersDen-Booking-Application/static/css/main.9562c146.css.map",
-    "main.fac2b670.js.map": "/GAmersDen-Booking-Application/static/js/main.fac2b670.js.map"
+    "main.e09ad2d1.css.map": "/GAmersDen-Booking-Application/static/css/main.e09ad2d1.css.map",
+    "main.f99edabe.js.map": "/GAmersDen-Booking-Application/static/js/main.f99edabe.js.map"
   },
   "entrypoints": [
-    "static/css/main.9562c146.css",
-    "static/js/main.fac2b670.js"
+    "static/css/main.e09ad2d1.css",
+    "static/js/main.f99edabe.js"
   ]
 }
