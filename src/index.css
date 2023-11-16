@@ -202,7 +202,7 @@ html {
 @media all and (max-width:600px) {
   .playerRegister {
     width: 100vw;
-    height: auto;
+    height: 60vh;
     padding: 2rem 4%;
   }
 
