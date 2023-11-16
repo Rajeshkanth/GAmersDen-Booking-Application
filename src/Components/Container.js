@@ -127,7 +127,7 @@ function Container() {
   return (
     <>
       <section className="user-page">
-        <span className="playerRegister">
+        <div className="playerRegister">
           <h1>
             <span>B</span>ook <span>Y</span>our <span>S</span>lots{" "}
           </h1>
@@ -167,7 +167,7 @@ function Container() {
           <button className="book-slot" onClick={addPlayerList}>
             BOOK NOW <span>!</span>
           </button>
-        </span>
+        </div>
         {confirm === true ? (
           <span className="playerListAlert">
             {alertList.map((a) => (

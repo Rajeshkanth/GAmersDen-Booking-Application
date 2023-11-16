@@ -16,10 +16,7 @@ html {
   font-size: 85.7%;
 }
 
-.header {
-  position: sticky;
-  top: 0;
-}
+
 
 .header span {
   color: #cf0000
@@ -38,10 +35,11 @@ html {
   background-image: url("./Images/futuristic-video-game-equipment-illuminated-nightclub-generative-ai.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5rem;
-  height: auto;
+  padding: 1.8rem 0;
   box-sizing: border-box;
   display: flex;
+  width: 100%;
+  height: 84.1vh;
 }
 
 .playerRegister {
@@ -51,9 +49,12 @@ html {
   border-radius: 5px;
   width: 30%;
   padding: 3rem 2%;
+  margin: 0 1rem;
   box-sizing: border-box;
+  height: 100%;
   /* background-color: #054765; */
   box-shadow: inset 0 0 15px #9fb7c3;
+
 }
 
 .user-page h1 {
@@ -194,4 +195,38 @@ html {
   color: #ffffff;
   font-size: .7rem;
   margin: 0;
+
+  box-sizing: border-box;
+}
+
+@media all and (max-width:600px) {
+  .playerRegister {
+    width: 100vw;
+    height: auto;
+    padding: 2rem 4%;
+  }
+
+  .header div {
+    display: none !important;
+  }
+
+  .user-page {
+    height: 80.5vh;
+    width: 100vw;
+  }
+
+
+
+  .playerListAlert {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    z-index: 4;
+  }
+
+  .confirmBox {
+    width: 90%;
+    background-color: #1ca6ec;
+    margin: 4rem auto;
+  }
 }
